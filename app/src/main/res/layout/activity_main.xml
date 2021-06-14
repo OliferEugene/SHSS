@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.olifer.projectlnau24.MainActivity"
+    tools:context="com.example.securitysystem.MainActivity"
     tools:layout_editor_absoluteX="134dp"
     tools:layout_editor_absoluteY="243dp">
 
@@ -25,8 +25,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="20"
-            android:gravity="center"
             android:text="SHSS"
+            android:gravity="center"
             android:textSize="36sp"
             android:visibility="visible" />
     </LinearLayout>
@@ -49,13 +49,13 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/etEmail"
+            android:id="@+id/etPhone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:ems="10"
-            android:hint="Email"
-            android:inputType="textEmailAddress" />
+            android:hint="Номер телефону"
+            android:inputType="phone" />
 
         <EditText
             android:id="@+id/etPassword"
@@ -120,6 +120,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="top"
+                android:layout_marginEnd="10sp"
                 android:layout_marginRight="10sp"
                 android:layout_marginBottom="5dp"
                 android:background="#00FCF8F8"
